@@ -95,7 +95,7 @@ namespace Pixelplacement
         //Loop:
         void Update ()
         {
-            //don't let an anchor scale:
+            //don't let an anchor widthScale:
             transform.localScale = Vector3.one;
 
             //initialization:

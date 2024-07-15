@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5019a163d1b8be4e88a22ab144910a6, type: 3}
+  m_Name: PrologueDialogData
+  m_EditorClassIdentifier: 
+  data:
+  - speakerIndex: 0
+    text: "\uC548\uB155 \uAF2C\uB9C8\uC57C."
+    color: {r: 1, g: 1, b: 1, a: 1}
+    typeSpeed: 
+  - speakerIndex: 1
+    text: "\uB204\uAD6C\uC138\uC694...? \uC5EC\uAE34 \uC5B4\uB514\uC8E0?"
+    color: {r: 1, g: 1, b: 1, a: 1}
+    typeSpeed: 
+  - speakerIndex: 0
+    text: "\uC54C\uB824\uC904 \uD14C\uB2C8 \uC7A0\uAE50\uB9CC \uC774\uB9AC \uAC00\uAE4C\uC774
+      \uC640\uBCF4\uB834."
+    color: {r: 1, g: 1, b: 1, a: 1}
+    typeSpeed: 
+  - speakerIndex: 1
+    text: "\uC774 \uBCF4\uB4DC \uC704\uB85C\uC694?"
+    color: {r: 1, g: 1, b: 1, a: 1}
+    typeSpeed: 
+  - speakerIndex: 0
+    text: "\uADF8\uB798. \uC633\uC9C0. \uADF8\uB798 \uADF8\uB798."
+    color: {r: 1, g: 1, b: 1, a: 1}
+    typeSpeed: 
+  - speakerIndex: 0
+    text: "\uAC70\uAE30 \uAC00\uB9CC\uD788 \uC788\uC5B4\uBD10! "
+    color: {r: 1, g: 1, b: 1, a: 1}
+    typeSpeed: 
+  - speakerIndex: 1
+    text: "\u2026\u2026\u2026. \uC5B4?"
+    color: {r: 1, g: 1, b: 1, a: 1}
+    typeSpeed: 

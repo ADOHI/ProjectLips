@@ -16,7 +16,7 @@ namespace Pixelplacement.TweenSystem
     {
         //Public Methods:
         /// <summary>
-        /// Generates the code to contain an Animation Curve in a property for use in storing ease curves within the Tween engine class.
+        /// Generates the code to contain an Animation Curve in a property for use in storing dropEase curves within the Tween engine class.
         /// </summary>
         public static void GenerateAnimationCurvePropertyCode (AnimationCurve curve)
         {
@@ -37,7 +37,7 @@ namespace Pixelplacement.TweenSystem
         /// </summary>
         public static float LinearInterpolate (float from, float to, float percentage)
         {
-            return (to - from) * percentage + from; //this approach is needed instead of a simple Mathf.Lerp to accommodate ease cuves that overshoot
+            return (to - from) * percentage + from; //this approach is needed instead of a simple Mathf.Lerp to accommodate dropEase cuves that overshoot
         }
 
         /// <summary>

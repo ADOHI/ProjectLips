@@ -3,6 +3,7 @@
     "com.annulusgames.lucid-random": "https://github.com/AnnulusGames/LucidRandom.git?path=/Assets/LucidRandom",
     "com.unity-atoms.unity-atoms": "https://github.com/unity-atoms/unity-atoms.git",
     "com.unity.burst": "1.8.16",
+    "com.unity.cinemachine": "2.10.1",
     "com.unity.collab-proxy": "2.4.3",
     "com.unity.collections": "1.4.0",
     "com.unity.feature.2d": "2.0.1",

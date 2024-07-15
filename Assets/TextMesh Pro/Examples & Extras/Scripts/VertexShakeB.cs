@@ -128,13 +128,13 @@ namespace TMPro.Examples
                         copyOfVertices[materialIndex][vertexIndex + 2] = sourceVertices[vertexIndex + 2] - charCenter;
                         copyOfVertices[materialIndex][vertexIndex + 3] = sourceVertices[vertexIndex + 3] - charCenter;
 
-                        // Determine the random scale change for each character.
+                        // Determine the random widthScale change for each character.
                         float randomScale = Random.Range(0.95f, 1.05f);
 
-                        // Setup the matrix for the scale change.
+                        // Setup the matrix for the widthScale change.
                         matrix = Matrix4x4.TRS(Vector3.one, Quaternion.identity, Vector3.one * randomScale);
 
-                        // Apply the scale change relative to the center of each character.
+                        // Apply the widthScale change relative to the center of each character.
                         copyOfVertices[materialIndex][vertexIndex + 0] = matrix.MultiplyPoint3x4(copyOfVertices[materialIndex][vertexIndex + 0]);
                         copyOfVertices[materialIndex][vertexIndex + 1] = matrix.MultiplyPoint3x4(copyOfVertices[materialIndex][vertexIndex + 1]);
                         copyOfVertices[materialIndex][vertexIndex + 2] = matrix.MultiplyPoint3x4(copyOfVertices[materialIndex][vertexIndex + 2]);

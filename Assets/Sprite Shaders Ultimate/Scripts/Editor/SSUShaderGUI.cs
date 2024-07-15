@@ -177,7 +177,7 @@ namespace SpriteShadersUltimate
                             DisplayHint("- Uses the <b>local position</b> of the object.");
                             break;
                         case (3):
-                            DisplayHint("- Uses the <b>local position</b> with scale adjustment.");
+                            DisplayHint("- Uses the <b>local position</b> with widthScale adjustment.");
                             break;
                         case (4):
                             DisplayHint("- Uses the <b>world position</b> (good for scene effects).");

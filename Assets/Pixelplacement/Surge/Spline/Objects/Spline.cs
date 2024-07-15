@@ -232,7 +232,7 @@ namespace Pixelplacement
                     float fromP = _splineReparams[i - 1].length / Length;
                     float toP = currentPercentage;
 
-                    //slide scale to 0:
+                    //slide widthScale to 0:
                     float maxAdjusted = toP - fromP;
                     float percentAdjusted = percent - fromP;
 

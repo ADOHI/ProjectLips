@@ -126,7 +126,7 @@ namespace TMPro.Examples
                         copyOfVertices[materialIndex][vertexIndex + 2] = sourceVertices[vertexIndex + 2] - centerOfLine;
                         copyOfVertices[materialIndex][vertexIndex + 3] = sourceVertices[vertexIndex + 3] - centerOfLine;
 
-                        // Determine the random scale change for each character.
+                        // Determine the random widthScale change for each character.
                         float randomScale = Random.Range(0.995f - 0.001f * ScaleMultiplier, 1.005f + 0.001f * ScaleMultiplier);
 
                         // Setup the matrix rotation.

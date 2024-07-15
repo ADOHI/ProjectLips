@@ -276,7 +276,7 @@ namespace FlyingWormConsole3.LiteNetLib
                     }
                 }
 
-                //Final stage - process valid packet
+                //Final stage - process movable packet
                 //trigger acks send
                 _mustSendAcks = true;
                 

@@ -69,7 +69,7 @@ namespace Pixelplacement
                 Quaternion lookRotation = Quaternion.identity;
                 SplineAnchor currentAnchor = spline.Anchors[i];
 
-                //scale geometry:
+                //widthScale geometry:
                 currentAnchor.InTangent.localScale = Vector3.one * (spline.toolScale * 1.3f);
                 currentAnchor.OutTangent.localScale = Vector3.one * (spline.toolScale * 1.3f);
                 currentAnchor.Anchor.localScale = Vector3.one * (spline.toolScale * 2.1f);

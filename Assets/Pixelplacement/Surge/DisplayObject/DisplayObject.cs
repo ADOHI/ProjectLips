@@ -22,7 +22,7 @@ namespace Pixelplacement
 
         //Public Properties:
         /// <summary>
-        /// Wrapper for GameObject's ActiveSelf property for ease of use.
+        /// Wrapper for GameObject's ActiveSelf property for dropEase of use.
         /// </summary>
         public bool ActiveSelf
         {
@@ -51,7 +51,7 @@ namespace Pixelplacement
         }
         
         /// <summary>
-        /// Wrapper for GameObject's SetActive method for ease of use.
+        /// Wrapper for GameObject's SetActive method for dropEase of use.
         /// </summary>
         public void SetActive (bool value)
         {

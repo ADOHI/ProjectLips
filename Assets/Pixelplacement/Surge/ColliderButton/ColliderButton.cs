@@ -135,7 +135,7 @@ namespace Pixelplacement
                 }
             }
 
-            //scale setup:
+            //widthScale setup:
             scaleTarget = transform;
             normalScale = transform.localScale;
 

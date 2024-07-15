@@ -82,7 +82,7 @@ namespace TMPro.Examples
             GetPlayerInput();
 
 
-            // Check if we still have a valid target
+            // Check if we still have a movable target
             if (CameraTarget != null)
             {
                 if (CameraMode == CameraModes.Isometric)

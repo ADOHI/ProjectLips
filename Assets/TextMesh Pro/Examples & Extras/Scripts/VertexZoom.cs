@@ -128,14 +128,14 @@ namespace TMPro.Examples
 
                     //Vector3 jitterOffset = new Vector3(Random.Range(-.25f, .25f), Random.Range(-.25f, .25f), 0);
 
-                    // Determine the random scale change for each character.
+                    // Determine the random widthScale change for each character.
                     float randomScale = Random.Range(1f, 1.5f);
                     
-                    // Add modified scale and index
+                    // Add modified widthScale and index
                     modifiedCharScale.Add(randomScale);
                     scaleSortingOrder.Add(modifiedCharScale.Count - 1);
 
-                    // Setup the matrix for the scale change.
+                    // Setup the matrix for the widthScale change.
                     //matrix = Matrix4x4.TRS(jitterOffset, Quaternion.Euler(0, 0, Random.Range(-5f, 5f)), Vector3.one * randomScale);
                     matrix = Matrix4x4.TRS(new Vector3(0, 0, 0), Quaternion.identity, Vector3.one * randomScale);
 
@@ -171,7 +171,7 @@ namespace TMPro.Examples
                 // Push changes into meshes
                 for (int i = 0; i < textInfo.meshInfo.Length; i++)
                 {
-                    //// Sort Quads based modified scale
+                    //// Sort Quads based modified widthScale
                     scaleSortingOrder.Sort((a, b) => modifiedCharScale[a].CompareTo(modifiedCharScale[b]));
 
                     textInfo.meshInfo[i].SortGeometry(scaleSortingOrder);
